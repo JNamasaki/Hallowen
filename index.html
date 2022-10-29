@@ -17,6 +17,7 @@
 </head>
 
 <body>
+    <img src="img/shape-bg.png" alt="background image" class="shape__bg">
     <!-- Header -->
     <header class="header" id="header">
         <nav class="nav container">
@@ -38,21 +39,53 @@
                         <a href="#party" class="nav__link">Party</a>
                     </li>
 
-                    <!-- Botao de Fechar -->
-                    <div class="nav__close" id="nav__close">
-                        <i class="ri-close-line"></i>
-                    </div>
-                    <img src="img/nav-bat.png" alt="nav image" class="nav__img">
                 </ul>
+                <!-- Botao de Fechar -->
+                <div class="nav__close" id="nav__close">
+                    <i class="ri-close-line"></i>
+                </div>
+
+                <img src="img/nav-bat.png" alt="nav image" class="nav__img">
+            </div>
+
+            <!-- toggle button -->
+            <div class="nav__toggle" id="nav__toggle">
+                <i class="ri-menu-4-line"></i>
             </div>
         </nav>
 
     </header>
 
 
-
     <!-- Main -->
     <main id="main" role="main">
+        <section class="home section" id="home">
+            <div class="shape__small"></div>
+            <div class="shape__big"></div>
+
+            <div class="home__container container grid">
+                <div class="home__data">
+                    <h1 class="home__title">
+                        <span>Hallowen</span> Trick or Treat!!!!
+                        <img src="img/stars.png" alt="home image" class="home__title_img_1">
+                        <img src="img/stars.png" alt="home image" class="home__title_img_2">
+                    </h1>
+                    <p class="home__description">
+                        This Halloween, enjoy trick-or-treating with your friends and spend a terrifying night under the full moon.
+                    </p>
+
+                    <a href="#" class="button">Explore Now!!!</a>
+                </div>
+
+                <img src="img/home-pumpkin.png" alt="home image" class="home__img">
+
+                <img src="img/home-tree1.png" alt="home image" class="home__tree_1">
+                <img src="img/home-tree2.png" alt="home image" class="home__tree_2">
+
+            </div>
+        </section>
+
+
     </main>
 
 
@@ -61,7 +94,7 @@
 
     </footer>
     <!-- Scripts -->
-    <script type="text/javascript" src="js/index.js"></script>
+    <script type="text/javascript" src="js/main.js"></script>
 </body>
 
 </html>
